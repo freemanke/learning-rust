@@ -17,3 +17,8 @@ cargo build
 cargo check 
 cargo run
 ```
+
+## 字符串插值
+```
+println!("This is my {}.", name);
+```
