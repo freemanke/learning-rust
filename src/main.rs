@@ -1,4 +1,5 @@
-mod math_service;
+pub mod math_service;
+mod math_service_test;
 
 fn main() {
     println!("Learning Rust!");
