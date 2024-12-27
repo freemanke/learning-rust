@@ -1,8 +1,14 @@
 [package]
-name = "hello_world"
+name = "freemanke_hello_world"
 version = "0.1.0"
 authors = ["freemanke <freemanke@qq.com>"]
 edition = "2018"
+license = "MIT"
+license-file = "LICENSE"
+documentation = "https://freemanke.com"
+homepage = "https://freemanke.com"
+repository = "https://github.com/freemanke/learning-rust.git"
+description = "Learning Rust"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
