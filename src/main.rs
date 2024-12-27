@@ -1,5 +1,5 @@
-pub mod math_service;
-mod math_service_test;
+pub mod math;
+use math::math_service;
 
 fn main() {
     println!("Learning Rust!");
@@ -10,6 +10,9 @@ fn main() {
     let name: &str = "freemanke";
     println!("The name is {}", name);
     println!("The first char is {}", &name[0..1]);
+
+    let friends: String = String::from("hello");
+    println!("{}", friends);
 
     let is_success: bool = true;
     println!("The success result is {}", if is_success { 1 } else { 0 });
@@ -24,8 +27,18 @@ fn main() {
     println!("The question mark is {}", question_mark);
 
     let names = [1, 2, 3, 4, 5];
-    println!("{}", names.iter().map(|num| num.to_string()).collect::<Vec<_>>().join(", "));
+    println!(
+        "{}",
+        names
+            .iter()
+            .map(|num| num.to_string())
+            .collect::<Vec<_>>()
+            .join(", ")
+    );
 
     let name_age_sexes = ("freemanke", 43, true);
-    println!("{} {} {}", name_age_sexes.0, name_age_sexes.1, name_age_sexes.2);
+    println!(
+        "{} {} {}",
+        name_age_sexes.0, name_age_sexes.1, name_age_sexes.2
+    );
 }
