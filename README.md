@@ -33,6 +33,7 @@ Rust 是一种预编译静态类型语言，生成的可执行文件不需要额
 ```shell
 cargo new learning-rust
 cd learning-rust
+cargo add package [serde, serde_json...]
 cargo check
 cargo build
 cargo build --release
