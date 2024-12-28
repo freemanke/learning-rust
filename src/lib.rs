@@ -1,5 +1,5 @@
 mod oop;
-mod error_handling;
+mod error;
 mod serialization;
 mod http;
 mod logging;
