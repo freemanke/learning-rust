@@ -1,4 +1,3 @@
-use reqwest::{Client, Error};
 
 #[tokio::test]
 async fn get() -> Result<(), Error> {

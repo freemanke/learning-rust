@@ -16,7 +16,7 @@ impl Rectangle {
 }
 
 mod tests {
-    use crate::oop::rectangle::Rectangle;
+    
 
     #[test]
     fn test_area() {

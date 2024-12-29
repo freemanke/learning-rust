@@ -1,4 +1,3 @@
-use std::process::Command;
 
 #[test]
 fn test_shell() {

@@ -26,7 +26,7 @@ impl Animal for Cat {
 }
 
 mod tests {
-    use crate::oop::animal::{Animal, Cat, Dog};
+    use crate::oop::animal::Animal;
 
     #[test]
     fn test_eat() {
